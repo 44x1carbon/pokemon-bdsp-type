@@ -101,7 +101,7 @@
   <table class="table is-bordered is-fullwidth">
     <tr
       ><td colspan="4"
-        ><input class="input" type="text" bind:value={searchPokemonQuery} /></td
+        ><input class="input" type="text" bind:value={searchPokemonQuery} placeholder="ポケモン名"/></td
       ></tr
     >
     {#each filterdPokemon as p}
